@@ -39,18 +39,36 @@
 //  5.  The clock icon beneath the recipe name has disappeared and been replaced by a text instead. 
 //      This can be fixed by adding a class to that element.
 
+    const timeContainer = document.querySelector(".time-container")
+
+    //console.log(timeContainer.firstChild)
+
+
+    timeContainer.firstElementChild.classList.add("material-icons")
+    
+
+
+//  6.  The estimated time of the recipe is also incorrect. Change it to the correct time estimation.
 
 
 
 
+//  7.  The src path to the image is wrong, or atleast it's showing the wrong image. Change it to the correct one. 
+//      The available images can be found in the assets folder.
 
+//  8.  The background color of the ingredients list container is wrong. Fix it.
 
+//  9.  The ingredients are divided in to two parts, one for the bottom and one for the paste. 
+//      In the list of the ingredients to the bottom, there is a text instead of two list items.
+//      Remove the text and add those two list items.
 
-//  6.
-//  7.
-//  8.
-//  9.
-// 10.
-// 11.
-// 12.
-// 13.
+// 10.  The third ingredient in the list of ingredients to the paste is wrong. 
+//      Change that specific ingredient to the correct one.
+
+// 11.  There is also a missing ingredient in the list of ingredients to the paste. 
+//      Look and see what it is and add that one the the end of the list.
+
+// 12.  The text "Instructions" to the left, beneath the image, has some shadow styling applied to it. 
+//      Remove that styling.
+
+// 13.  Two list elements of the list of instructions are incorrect. Find them and change them to the correct ones.
