@@ -41,7 +41,7 @@
 
     const timeContainer = document.querySelector(".time-container")
 
-    //console.log(timeContainer.firstChild)
+    
 
 
     timeContainer.firstElementChild.classList.add("material-icons")
@@ -51,10 +51,19 @@
 //  6.  The estimated time of the recipe is also incorrect. Change it to the correct time estimation.
 
 
+    timeContainer.lastChild.innerText = "60+ min "
+    console.log(timeContainer.lastChild.innerText)
 
 
 //  7.  The src path to the image is wrong, or atleast it's showing the wrong image. Change it to the correct one. 
 //      The available images can be found in the assets folder.
+
+    const image = document.querySelector("img");
+    image.setAttribute("src","assets/frozen-cheesecake-slice.jpg")
+    console.log(image.getAttribute("src"));
+
+
+
 
 //  8.  The background color of the ingredients list container is wrong. Fix it.
 
